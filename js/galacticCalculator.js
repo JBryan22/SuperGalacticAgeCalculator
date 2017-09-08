@@ -22,6 +22,7 @@ export class GalacticCalculator {
 
   lifeExpectancy(gender, exercise, smoking, race) {
     let yourExpectancy = 79;
+    debugger;
 
     gender == 'male' ? yourExpectancy -= 2.5 : yourExpectancy += 2.5;
 

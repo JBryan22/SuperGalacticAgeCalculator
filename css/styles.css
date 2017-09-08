@@ -1,11 +1,22 @@
 body {
   color: rgb(12,227,172);
   background-image:url("../img/stars.jpeg");
-  background-size:contain;
+  background-size:cover;
+  background-position: bottom;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
 }
 
 .form-control, input {
   background-color: #f7f7f7;
+  border-radius:4px;
+}
+
+.form-control {
+  width:50%;
 }
 
 .radio {
