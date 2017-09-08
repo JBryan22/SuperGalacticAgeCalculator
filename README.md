@@ -1,3 +1,17 @@
+# _Super Galactic Age Calculator
+
+#### _An age calculator that shows what age a person would be if they lived on different planets_
+
+#### By _**Jesse Bryan**_
+
+## Description
+
+_User can enter birthday as well as additional information. Once submitted, their age on various planets is revealed. Their life expectancy is then generated based on the answers they gave previously. This then reveals how much longer they have to live on each planet_
+
+## Setup/Installation Requirements
+
+* _after cloning the repo use type "npm install" and "bower install" into your terminal. You must have node js in order for this to work._
+
 Specs -
 
 // ----- Front end ----- \\
@@ -47,3 +61,21 @@ Output all values in a list below input fields. Hide forms. Allow user to show f
 2. Assign dog year const
 
 3. Assign mayfly/earth year const
+
+## Known Bugs
+
+_There are currently no known bugs in this program._
+
+## Support and contact details
+
+_For questions, please contact Jesse Bryan at jesse.bryan22@gmail.com_
+
+## Technologies Used
+
+_This app is programmed using HTML, CSS, javascript, NodeJS, and Bootstrap._
+
+### License
+
+*All rights reserved.  Version 1.0.*
+
+Copyright (c) 2017 **_Jesse Bryan_**
