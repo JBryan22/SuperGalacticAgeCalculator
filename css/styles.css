@@ -10,13 +10,44 @@ h1 {
   margin: 40px 0;
 }
 
+ul {
+  list-style: none;
+}
+
+.input-row {
+    border: 5px solid rgb(12,227,172);
+}
+
+.input-area, .output-area {
+  display:inline-block;
+  width:45%;
+  margin:25px;
+  padding:25px;
+  border-radius: 5px;
+}
+
+.output-area {
+  text-align: center;
+}
+
+.output-area h4 {
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding-bottom:10px;
+  border-bottom: 1px solid rgb(12,227,172);
+}
+
+.output-area li{
+  margin-bottom: 15px;
+}
+
 .form-control, input {
   background-color: #f7f7f7;
   border-radius:4px;
 }
 
 .form-control {
-  width:50%;
+  width:90%;
 }
 
 .radio {

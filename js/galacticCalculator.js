@@ -4,6 +4,8 @@ export class GalacticCalculator {
     this.venusYearLength = 0.62;
     this.marsYearLength = 1.88;
     this.jupiterYearLength = 11.86;
+    this.dogYearLength = 0.14;
+    this.mayflyYearLength = 0.000009512937595129377;
     this.birthdayDate = new Date(birthday);
     this.birthdayDate.setDate(this.birthdayDate.getDate() + 1);
     //maybe increment day by one
