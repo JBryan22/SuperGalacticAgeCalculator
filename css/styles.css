@@ -1,0 +1,22 @@
+body {
+  color: rgb(12,227,172);
+  background-image:url("../img/stars.jpeg");
+  background-size:contain;
+}
+
+.form-control, input {
+  background-color: #f7f7f7;
+}
+
+.radio {
+  color:white;
+}
+
+.planet-area {
+  text-align: center;
+}
+
+.planet-image {
+  width:50%;
+  border-radius: 50%;
+}
