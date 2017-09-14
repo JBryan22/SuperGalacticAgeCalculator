@@ -44,7 +44,7 @@ $(function() {
     $(".earth-life").text(lifeExpectancy);
     if (!outlived) {
       $(".years-p").show();
-      $(".earth-left").text("Years left to live on this planet: " + lifeExpectancy - currentAge);
+      $(".earth-left").text("Years left to live on this planet: " + (lifeExpectancy - currentAge));
     }
 
     $(".mars").text(calc.ageBasedOnYearLength(calc.birthdayDate, calc.marsYearLength));

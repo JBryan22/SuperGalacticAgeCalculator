@@ -24,7 +24,6 @@ export class GalacticCalculator {
 
   lifeExpectancy(gender, exercise, smoking, race) {
     let yourExpectancy = 79;
-    debugger;
 
     gender == 'male' ? yourExpectancy -= 2.5 : yourExpectancy += 2.5;
 
@@ -49,7 +48,7 @@ export class GalacticCalculator {
     } else if (race == 'asian-american') {
       yourExpectancy += 6;
     } else if (race == 'hispanic') {
-      yourExpectancy += 2.5
+      yourExpectancy += 2.5;
     } else if (race == 'native-american') {
       yourExpectancy += 2;
     }
@@ -58,4 +57,4 @@ export class GalacticCalculator {
 
   }
 
-};
+}
